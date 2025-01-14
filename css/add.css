@@ -144,14 +144,14 @@ section{
     background: #202623;
 }
 .bg-img{
-    background: url(/img/bg1.png);
+    background: url(../img/bg1.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
 }
 .bg-mv{
-    background: url(/img/mv.png);
+    background: url(../img/mv.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ section{
 /* レスポンシブ */
 @media screen and (max-width: 767px){
     .bg-mv{
-    background: url(/img/mv_sp.png);
+    background: url(../img/mv_sp.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -248,7 +248,7 @@ font-size: 1rem;
 
 
 .bg-img {
-    background: url(/img/bg1.png);
+    background: url(../img/bg1.png);
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
