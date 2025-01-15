@@ -78,15 +78,24 @@ font-size: 3rem;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     position: relative;
+      -webkit-transition: all .3s;
+  transition: all .3s;
 }
 .btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);
+    color: white !important;
+    transform: scale(1.1,1.1);
 }
 .btn span{
     position: absolute;
     right: 5%;
+}
+
+.bg-mv .btn{
+    font-size: 1rem !important;
+    letter-spacing: 3px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 1rem 3rem 1rem 2rem;
 }
 
 /* 画像 */
@@ -174,7 +183,9 @@ section{
 .navbar-toggler{
     border:none;
 }
-
+.logo{
+    top:50px;left: 20px;
+}
 
 /* レスポンシブ */
 @media screen and (max-width: 767px){
@@ -252,6 +263,20 @@ font-size: 1rem;
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
+}
+
+.logo{
+    top:20px;
+    left: 0px;
+    padding: 0;
+}
+
+.bg-mv .btn{
+    font-size: 0.9rem !important;
+    letter-spacing: 3px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0.5rem 1rem 0.5rem 0.5rem !important;
 }
 }
 
