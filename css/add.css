@@ -197,6 +197,13 @@ section{
     background-blend-mode: lighten;
     padding-bottom: 0 !important;
 }
+.bg-mv .btn{
+    font-size: 0.9rem !important;
+    letter-spacing: 3px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0.5rem 1rem 0.5rem 0.5rem !important;
+}
 }
 
 @media screen and (max-width: 992px){
@@ -271,12 +278,5 @@ font-size: 1rem;
     padding: 0;
 }
 
-.bg-mv .btn{
-    font-size: 0.9rem !important;
-    letter-spacing: 3px;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    padding: 0.5rem 1rem 0.5rem 0.5rem !important;
-}
 }
 
