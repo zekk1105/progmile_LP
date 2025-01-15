@@ -11,7 +11,7 @@ h1{
 }
 .dots{
     -webkit-text-emphasis: filled;
-  text-emphasis: filled;
+    text-emphasis: filled;
 }
 h2{
     color: white ;
@@ -62,8 +62,6 @@ a{
 .text-flow{
 font-size: 3rem;
 }
-
-
 
 .btn{
     background: linear-gradient(0deg, #F98F2C 24%,#FD4F04 100% );
@@ -212,7 +210,7 @@ section{
     border:none;
 }
 .logo{
-    top:50px;left: 20px;
+    top:25px;left: 20px;
 }
 
 /* レスポンシブ */
