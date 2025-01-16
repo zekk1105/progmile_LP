@@ -19,13 +19,14 @@ h2{
     line-height: 150%;
     font-weight: bold;
     margin-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 h3{
     color: white ;
     letter-spacing: 1px;
     line-height: 150%;
     font-weight:bold;
+    font-size: 1.4rem;
     margin-bottom: 3rem;
 }
 
@@ -33,6 +34,7 @@ h4{
     letter-spacing: 0px;
     line-height: 150%;
     font-weight:bold;
+    font-size: 1rem;
 }
 h5{
     letter-spacing: 0px;
@@ -133,8 +135,8 @@ section{
     margin: 0;
 }
 .mw{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
     max-width: 1500px;
     margin: auto;
 }
@@ -163,8 +165,8 @@ section{
 .bg-img{
     background: url(../img/bg1.png);
     background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
     background-blend-mode: lighten;
 }
 .bg-mv{
@@ -226,6 +228,15 @@ section{
 .logo{
     top:25px;left: 20px;
 }
+
+.carousel-control-next {
+    right: 0%;
+}
+.carousel-control-prev {
+    left: 0%;
+}
+
+
 
 /* レスポンシブ */
 @media screen and (max-width: 767px){
