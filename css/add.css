@@ -1,8 +1,13 @@
 /* 文字 */
 h1,h2,h3,h4,h5,h6,p,a,span{
-    font-family: "hiragino-kaku-gothic-pron", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "source-han-sans-cjk-ja", sans-serif;
+    font-weight: 700;
+    font-style: normal !important;
+}
+h1,h2{
+    font-family: "source-han-sans-cjk-ja", sans-serif;
+    font-weight: 900;
+    font-style: normal !important;
 }
 
 h1{
@@ -10,7 +15,6 @@ h1{
     color: White  !important;
     letter-spacing: 3px !important;
     line-height: 150% !important;
-    font-weight: bold !important;
     margin-bottom: 0rem;
     display: inline-block;
     position: relative;
@@ -23,7 +27,6 @@ h2{
     color: white ;
     letter-spacing: 2px;
     line-height: 150%;
-    font-weight: bold;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
@@ -31,7 +34,6 @@ h3{
     color: white ;
     letter-spacing: 1px;
     line-height: 150%;
-    font-weight:bold;
     font-size: 1.4rem;
     margin-bottom: 3rem;
 }
@@ -39,13 +41,11 @@ h3{
 h4{
     letter-spacing: 0px;
     line-height: 150%;
-    font-weight:bold;
     font-size: 1rem;
 }
 h5{
     letter-spacing: 0px;
     line-height: 150%;
-    font-weight:bold;
     margin-bottom: 0;
 }
 p{
@@ -53,11 +53,9 @@ p{
     letter-spacing: 0px;
     line-height: 200%;
     font-size: 15px;
-    font-weight: bold;
 }
 a{
     font-size: 1.5rem !important;
-    font-weight: bold !important;
 }
 
 /* その他文字 */
@@ -350,7 +348,6 @@ h5{
 }
 a{
     font-size: 1.3rem !important;
-    font-weight: bold !important;
 }
 .text-flow{
 font-size: 1rem;
