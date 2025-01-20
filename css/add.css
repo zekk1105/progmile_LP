@@ -50,7 +50,7 @@ h5{
 }
 p{
     color: #fff;
-    letter-spacing: 0px;
+    letter-spacing: -0.5px;
     line-height: 200%;
     font-size: 15px;
 }
@@ -67,6 +67,9 @@ a{
 }
 .text-flow{
 font-size: 3rem;
+}
+.text-foot a{
+    font-size: 0.9rem !important;
 }
 
 .btn{
@@ -86,6 +89,7 @@ font-size: 3rem;
     position: relative;
     -webkit-transition: all .3s;
     transition: all .3s;
+    font-weight: bold !important;
 }
 .btn:hover {
     color: white !important;
@@ -115,12 +119,18 @@ img {
 }
 
 .img-intro{
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     right: 15vw;
     width: 30% !important;
+    z-index: -1; */
+    position: absolute;
+    bottom: -5%;
+    right: 25vw;
+    width: 24% !important;
     z-index: -1;
 }
+
 
 .cover{
     object-fit: cover;
@@ -152,7 +162,7 @@ section{
 
 /* 背景 */
 .bg-main{
-    background: linear-gradient(170deg, #035A89 0%,#2589B5 34%,#76B6CB 74%,#B4CDD2 87%,#F3E5DA 100% );
+    background: linear-gradient(170deg, #035A89 0%,#2589B5 34%,#76B6CB 84%,#B4CDD2 97%,#F3E5DA 100% );
 }
 .bg-sub{
     background: #00659D;
@@ -207,7 +217,7 @@ section{
     position: absolute;
     top: calc(50% - 1px);
     right: 0;
-    width: 70%;
+    width: 85%;
     height: 2px;
     content: '';
     background: #FFFF00;
@@ -230,7 +240,10 @@ section{
     border:none;
 }
 .logo{
-    top:25px;left: 20px;
+    top:0px;
+    left: 0px;
+    padding: 15px ;
+    transition: all, 0.5s;
 }
 
 .carousel-control-next {
@@ -304,11 +317,11 @@ h4{
     background-size: contain;
 }
 
-.img-intro{
-    right: 3vw;
-    width: 40% !important;
-}
 
+
+.text-point::before {
+    width: 80%;
+}
 
 }
 
@@ -379,9 +392,15 @@ font-size: 1rem;
 }
 
 .logo{
-    top:20px;
-    left: 0px;
-    padding: 0;
+    padding:15px 0px;
+}
+
+.img-intro{
+    /* right: 3vw;
+    width: 40% !important; */
+    right: 0%;
+    bottom: -3%;
+    width: 33% !important;
 }
 
 }
