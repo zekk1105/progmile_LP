@@ -162,8 +162,11 @@ section{
 
 /* 背景 */
 .bg-main{
+    background-image:url(../img/bg-back.jpeg);
     background: linear-gradient(170deg, #035A89 0%,#2589B5 34%,#76B6CB 84%,#B4CDD2 97%,#F3E5DA 100% );
+    background-blend-mode:lighten;
 }
+
 .bg-sub{
     background: #00659D;
 }
